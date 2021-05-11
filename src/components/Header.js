@@ -20,6 +20,20 @@ const Header = () => {
             </Link>
           </li>
         </ul>
+        <ul className="navbar-nav ml-auto">
+          <li className="nav-item active">
+            <Link className="nav-link main-home-nav" to="/login">
+              Log In
+            </Link>
+          </li>
+        </ul>
+        <ul className="navbar-nav ml-auto">
+          <li className="nav-item active">
+            <Link className="nav-link main-home-nav" to="/register">
+              Register
+            </Link>
+          </li>
+        </ul>
       </div>
     </nav>
   );
